@@ -1,0 +1,23 @@
+{
+  "name": "open-in-vscode",
+  "version": "1.0.0",
+  "description": "ctrl-click to open folder or file in vscode",
+  "main": "index.js",
+  "scripts": {
+    "start": "pathToZip='' node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonmatt/open-with-vscode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnstonmatt/open-with-vscode/issues"
+  },
+  "homepage": "https://github.com/johnstonmatt/open-with-vscode#readme",
+  "dependencies": {
+    "extract-zip": "^1.6.7"
+  }
+}
