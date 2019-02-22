@@ -4,20 +4,20 @@
   "description": "ctrl-click to open folder or file in vscode",
   "main": "index.js",
   "scripts": {
-    "start": "pathToZip='' node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnstonmatt/open-with-vscode.git"
   },
-  "author": "",
+  "author": "Matt Johnston",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/johnstonmatt/open-with-vscode/issues"
   },
   "homepage": "https://github.com/johnstonmatt/open-with-vscode#readme",
   "dependencies": {
-    "mv": "^2.1.1"
+    "ncp": "^2.0.0"
   }
 }
