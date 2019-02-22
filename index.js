@@ -1,8 +1,11 @@
-import extract from 'extract-zip';
+const mv = require('mv');
 const homedir = require('os').homedir();
-const pathToZip = !!process.env.pathToZip || `${homedir}/Downloads/open-in-vscode.zip`;
 const pathToServices = !!process.env.pathToServices ||`${homedir}/Library/Services`;
 
-extract(pathToZip, { dir: pathToServices }, function (err) {
-    if (err) throw err
+mv('./Open in VSCode.workflow', pathToServices, (err) => {
+    if(err) {
+        console.error(err);
+        process.exit(1);
+    }
+    process.exit(0);
 });

@@ -1,10 +1,9 @@
 
 # Open in VSCode
 
-only on mac, windows has a context menu for this already
+ctrl-click on mac to open in VSCode
 
-
-## installation
+## Installation
 
 1) clone this repo
 2) download this [zip](https://serveon.site/open-in-vscode-workflow.zip)
@@ -14,10 +13,11 @@ only on mac, windows has a context menu for this already
 
 `npm start` will extract the workflow source from the zip and move it to `/Users/${username}/Library/Services`. Finally it will delete the archive at `/Users/${username}/Downloads`, or the path provided (see below)
 
-### Download location not default?
+### Download location not default
 
 if your default download location is not $HOME/Downloads you should pass pathToZip into the process.env of `npm start`.
 Because this script will only execute once, you can just prefix package.json.scripts.start's value with `pathToZip="/path/to/open-in-vscode.zip"`
 
-## usage
-ctrl-click and select Open in VSCode
+## Usage
+
+ctrl-click and select Sevices/Open in VSCode
