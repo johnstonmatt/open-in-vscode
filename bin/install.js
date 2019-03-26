@@ -8,10 +8,4 @@ const dest = `${pathToServices}/${packageName}`;
 
 fse.ensureDirSync(dest);
 
-fse.copySync(`${__dirname}/../${packageName}`, dest, (err) => {
-    if(err) {
-        console.error(err);
-        process.exit(1);
-    }
-    process.exit(0);
-});
+fse.copySync(`${__dirname}/../${packageName}`, dest);
