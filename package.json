@@ -7,6 +7,9 @@
     "start": "node ./bin/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "install-open-in-vscode": "./bin/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnstonmatt/open-with-vscode.git"
