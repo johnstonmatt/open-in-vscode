@@ -2,7 +2,7 @@
   "name": "install-open-in-vscode",
   "version": "2.0.0",
   "description": "ctrl-click to open folder or file in vscode",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "start": "node ./bin/index",
     "test": "echo \"Error: no test specified\" && exit 1"
