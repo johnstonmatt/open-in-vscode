@@ -65,7 +65,7 @@
 					<key>inputMethod</key>
 					<integer>1</integer>
 					<key>shell</key>
-					<string>/bin/zsh</string>
+					<string>/bin/sh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
