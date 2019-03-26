@@ -3,12 +3,13 @@
 const homedir = require('os').homedir();
 const fse = require('fs-extra');
 const pathToServices = !!process.env.pathToServices ||`${homedir}/Library/Services`;
-const packageName = 'Open in VSCode.workflow';
+const packageName = 'Open-in-VSCode.workflow';
 const dest = `${pathToServices}/${packageName}`;
+console.log(process.cwd());
 
 fse.ensureDirSync(dest);
 
-fse.copySync(`../${packageName}`, dest, (err) => {
+fse.copySync(`${process.cwd()}/${packageName}`, dest, (err) => {
     if(err) {
         console.error(err);
         process.exit(1);
