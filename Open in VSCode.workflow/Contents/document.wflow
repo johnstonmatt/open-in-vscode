@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/code -n "$@" || echo "open vscode, then use ⇧⌘P and run \"install 'code' command in path\", then run this again"</string>
+					<string>/usr/local/bin/code -n "$@" || osascript -e 'tell app "Finder" to display dialog "Please add 'code' to path, see: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"'</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,7 +172,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>645.500000:305.000000</string>
+				<string>645.500000:485.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
