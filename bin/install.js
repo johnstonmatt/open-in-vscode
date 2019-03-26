@@ -1,17 +1,14 @@
 #!/usr/bin/env node
 
-const cp = require('ncp');
 const homedir = require('os').homedir();
-const fs = require('fs');
+const fse = require('fs-extra');
 const pathToServices = !!process.env.pathToServices ||`${homedir}/Library/Services`;
-const filename = 'Open in VSCode.workflow';
-const dest = `${pathToServices}/${filename}`;
+const packageName = 'Open in VSCode.workflow';
+const dest = `${pathToServices}/${packageName}`;
 
-if(!fs.existsSync(dest)){
-    fs.mkdirSync(dest);
-}
+fse.ensureDirSync(dest);
 
-cp(`./${filename}`, dest, (err) => {
+fse.copySync(`./${packageName}`, dest, (err) => {
     if(err) {
         console.error(err);
         process.exit(1);
