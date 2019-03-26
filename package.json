@@ -1,6 +1,6 @@
 {
   "name": "install-open-in-vscode",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "ctrl-click to open folder or file in vscode",
   "main": "bin/index.js",
   "scripts": {
