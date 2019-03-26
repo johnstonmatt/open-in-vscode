@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const cp = require('ncp');
 const homedir = require('os').homedir();
 const pathToServices = !!process.env.pathToServices ||`${homedir}/Library/Services`;
