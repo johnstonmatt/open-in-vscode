@@ -1,15 +1,11 @@
 
 # Open in VSCode
 
-ctrl-click on mac to open in VSCode
+ctrl-click on a folder in finder to open with VSCode
 
 ## Installation
 
-1) clone this repo
-2) run `npm install`
-3) run `npm start`
-
-`npm start` will copy the  `Open in VSCode.workflow` archive to `/Users/${username}/Library/Services`.
+`npx install-open-in-vscode`
 
 ## Usage
 
