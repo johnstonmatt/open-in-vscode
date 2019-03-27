@@ -5,11 +5,12 @@ VSCode does not enable opening folders from the context menu (ctrl-click), this 
 
 ## Installation
 
-First make sure 'code' is added to your PATH
+1) First make sure 'code' is added to your PATH
 
 ![add code to path](https://serveon.site/vscode-add-to-path.png)
 
-`npx install-open-in-vscode`
+
+2) run `npx install-open-in-vscode`
 
 
 ## Usage
