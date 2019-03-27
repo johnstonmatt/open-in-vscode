@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/code -n "$@" || osascript -e 'tell app "Finder" to display dialog "Please add 'code' to path, see: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"'</string>
+					<string>/usr/local/bin/code -n "$@" || osascript -e 'tell app "Finder" to display dialog "Please add \"code\" to path, see: https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line"'</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
