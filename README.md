@@ -15,6 +15,6 @@ VSCode does not enable opening folders from the context menu (ctrl-click), this 
 
 ## Usage
 
-![open in vscode context menu](https://serveon.site/open-in-vscode-context-menu.png)
+![open in vscode context menu](https://serveon.site/open-in-vscode-cropped.png)
 
 If the option is not immediately in the context menu, it is likely under `Services`
