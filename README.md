@@ -7,7 +7,7 @@ VSCode does not enable opening folders from the macOS context menu (ctrl-click),
 
 1) First make sure 'code' is added to your PATH
 
-![add code to path](https://serveon.site/vscode-add-to-path.png)
+![add code to path](http://serveon.site/vscode-add-to-path.png)
 
 
 2) run `npx install-open-in-vscode`
@@ -15,6 +15,6 @@ VSCode does not enable opening folders from the macOS context menu (ctrl-click),
 
 ## Usage
 
-![open in vscode context menu](https://serveon.site/open-in-vscode-cropped.png)
+![open in vscode context menu](http://serveon.site/open-in-vscode-cropped.png)
 
 If the option is not immediately in the context menu, it is likely under `Services`
