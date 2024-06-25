@@ -1,7 +1,7 @@
 
 # Open in VSCode
 
-VSCode does not enable opening folders from the context menu (ctrl-click), this package does!
+VSCode does not enable opening folders from the macOS context menu (ctrl-click), this package does!
 
 ## Installation
 
